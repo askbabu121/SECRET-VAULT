@@ -1,0 +1,6 @@
+{
+  "name": "Secret Vault",
+  "description": "Private encrypted photo and video vault with stealth disguise, custom albums, and secure local locker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

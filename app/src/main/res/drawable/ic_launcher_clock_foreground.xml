@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Clock Outer Ring -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M54,26 C38.54,26 26,38.54 26,54 C26,69.46 38.54,82 54,82 C69.46,82 82,69.46 82,54 C82,38.54 69.46,26 54,26 Z M54,76 C41.85,76 32,66.15 32,54 C32,41.85 41.85,32 54,32 C66.15,32 76,41.85 76,54 C76,66.15 66.15,76 54,76 Z" />
+    
+    <!-- Clock Center Face -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M54,33 C42.4,33 33,42.4 33,54 C33,65.6 42.4,75 54,75 C65.6,75 75,65.6 75,54 C75,42.4 65.6,33 54,33 Z" />
+
+    <!-- Hour Marks -->
+    <path android:fillColor="#EEF2FF" android:pathData="M53,35 h2 v4 h-2 z" />
+    <path android:fillColor="#EEF2FF" android:pathData="M53,69 h2 v4 h-2 z" />
+    <path android:fillColor="#EEF2FF" android:pathData="M35,53 h4 v2 h-4 z" />
+    <path android:fillColor="#EEF2FF" android:pathData="M69,53 h4 v2 h-4 z" />
+
+    <!-- Hour Hand (pointing to 10) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L44,43" />
+
+    <!-- Minute Hand (pointing to 2) -->
+    <path
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L66,40" />
+
+    <!-- Center Pivot Pin -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M54,51 C52.34,51 51,52.34 51,54 C51,55.66 52.34,57 54,57 C55.66,57 57,55.66 57,54 C57,52.34 55.66,51 54,51 Z" />
+</vector>

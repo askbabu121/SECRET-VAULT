@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Notepad paper background -->
+    <path
+        android:fillColor="#FFFBEB"
+        android:pathData="M35,28 h38 c2.2,0 4,1.8 4,4 v44 c0,2.2 -1.8,4 -4,4 h-38 c-2.2,0 -4,-1.8 -4,-4 v-44 c0,-2.2 1.8,-4 4,-4 z" />
+    
+    <!-- Top binding bar -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M35,28 h38 c2.2,0 4,1.8 4,4 v6 h-46 v-6 c0,-2.2 1.8,-4 4,-4 z" />
+
+    <!-- Notepad lines -->
+    <path
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,46 h32
+                          M38,54 h32
+                          M38,62 h22" />
+
+    <!-- Pencil / Pen accent -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M66,60 l10,-10 c0.8,-0.8 2,-0.8 2.8,0 l2.2,2.2 c0.8,0.8 0.8,2 0,2.8 l-10,10 l-6,2 z" />
+</vector>
